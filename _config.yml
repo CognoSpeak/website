@@ -1,0 +1,12 @@
+# Site settings
+title: CognoSpeak
+email: info@cognospeak.org
+description: > # this means to ignore newlines until "baseurl:"
+  CognoSpeak - a better, faster way to assess patients with memory problems
+baseurl: "/CognoSpeak" # the subpath of your site, e.g. /blog/
+url: "http://cognospeak.org" # the base hostname & protocol for your site
+twitter_username: cognospeak
+github_username:  cognospeak
+
+# Build settings
+markdown: kramdown
