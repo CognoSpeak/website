@@ -3,8 +3,11 @@ title: CognoSpeak
 email: info@cognospeak.org
 description: > # this means to ignore newlines until "baseurl:"
   CognoSpeak - a better, faster way to assess patients with memory problems
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://heidiuk.github.io/cognospeak" # the base hostname & protocol for your site
+#baseurl: "/docs/" # the subpath of your site, e.g. /blog/
+#url: "http://heidiuk.github.io/cognospeak" # the base hostname & protocol for your site
+
+repository: "heidiuk.github.io/cognospeak"
+
 twitter_username: cognospeak
 github_username:  cognospeak
 
