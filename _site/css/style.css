@@ -49,7 +49,7 @@
 		font-weight: 300;
 		line-height: 1em;
 		margin: 0 0 1em 0;
-		text-transform: uppercase;
+		text-transform: ;
 		letter-spacing: 0.125em;
 	}
 
@@ -711,7 +711,7 @@
 		cursor: pointer;
 		display: inline-block;
 		font-weight: 300;
-		text-transform: uppercase;
+		text-transform: ;
 		letter-spacing: 0.125em;
 		font-size: 0.9em;
 		height: 2.85em;
