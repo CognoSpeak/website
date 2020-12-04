@@ -1,25 +1,26 @@
 <!-- Header -->
 <header id="header" class="skel-layers-fixed">
-    <h1><a href="{{ site.baseurl }}/" class="site-title" >{{ site.title }}</a></h1>
-   <!-- <h1><a href="{{ site.baseurl }}/" class="site-title" >{{ site.title }}</a><img src="{{ site.baseurl }}/images/CognoSpeak_logo2.png" alt="" style="width:40px"/></h1> -->
-   
+    <h1><a href="{{ site.baseurl }}/" class="site-title">{{ site.title }}</a></h1>
+    <!-- <h1><a href="{{ site.baseurl }}/" class="site-title" >{{ site.title }}</a><img src="{{ site.baseurl }}/images/CognoSpeak_logo2.png" alt="" style="width:40px"/></h1> -->
+
     <nav id="nav">
         <ul>
             <li><a href="{{ site.baseurl }}/">Home</a></li>
             <li><a href="{{ site.baseurl }}/solution.html">How it works</a></li>
             <li><a href="{{ site.baseurl }}/research.html">Research</a></li>
-        <!--    <li><a href="{{ site.baseurl }}/takepart.html">Take -->
-	<!--    Part</a></li> -->
-        <!--    <li><a href="{{ site.baseurl
+            <li><a href="{{ site.baseurl }}/research.html">Projects & Collaborations</a></li>
+            <!--    <li><a href="{{ site.baseurl }}/takepart.html">Take -->
+            <!--    Part</a></li> -->
+            <!--    <li><a href="{{ site.baseurl
 	}}/no-sidebar.html">r</a></li> -->
             <li><a href="{{ site.baseurl }}/contact.html">Contact Us</a></li>
             {% for page in site.pages %}
-                  {% if page.title %}
-                    <li><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
-                  {% endif %}
+            {% if page.title %}
+            <li><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+            {% endif %}
             {% endfor %}
-       <!--     <li><a href="#" class="button special">Sign -->
-       <!--     Up</a></li> -->
+            <!--     <li><a href="#" class="button special">Sign -->
+            <!--     Up</a></li> -->
         </ul>
     </nav>
 </header>
